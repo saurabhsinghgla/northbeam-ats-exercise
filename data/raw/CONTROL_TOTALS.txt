@@ -1,0 +1,23 @@
+NORTHBEAM PARTNERS — ATS EXTRACT
+Control totals
+==============
+
+Your data layer must reproduce all five of these figures exactly.
+If one of yours does not tie, that is the finding — do not adjust the number, explain it.
+
+1. Unique people in the candidate pool ................. 560
+   (people, not candidate records)
+
+2. Applications at Offer stage as at 2026-03-31 ........ 32
+   (position at the close of that day, not today's position)
+
+3. Median time to hire, days ........................... 58
+   (application submitted -> Hired, for hires between 2026-01-01 and 2026-06-30)
+
+4. Total annual offered salary, Engineering, INR ....... 200,700,000
+   (all offers against Engineering requisitions, any status)
+
+5. Offer acceptance rate, per cent ..................... 51.2
+   (of offers that reached a decision; offers still open are excluded)
+
+Note: figures 1-5 exclude any record that cannot be tied to a valid requisition.

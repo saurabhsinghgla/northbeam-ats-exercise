@@ -1,0 +1,100 @@
+[
+  {
+    "user_id": "U001",
+    "name": "Naveen Malhotra",
+    "email": "naveen.malhotra@northbeam.example",
+    "role": "recruiter",
+    "department": null
+  },
+  {
+    "user_id": "U002",
+    "name": "Gaurav Khanna",
+    "email": "gaurav.khanna@northbeam.example",
+    "role": "recruiter",
+    "department": null
+  },
+  {
+    "user_id": "U003",
+    "name": "Rahul Singh",
+    "email": "rahul.singh@northbeam.example",
+    "role": "recruiter",
+    "department": null
+  },
+  {
+    "user_id": "U004",
+    "name": "Ritika Saxena",
+    "email": "ritika.saxena@northbeam.example",
+    "role": "recruiter",
+    "department": null
+  },
+  {
+    "user_id": "U005",
+    "name": "Uday Varma",
+    "email": "uday.varma@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Engineering"
+  },
+  {
+    "user_id": "U006",
+    "name": "Harsh Agarwal",
+    "email": "harsh.agarwal@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Data"
+  },
+  {
+    "user_id": "U007",
+    "name": "Ritika Varma",
+    "email": "ritika.varma@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Sales"
+  },
+  {
+    "user_id": "U008",
+    "name": "Ridhi Khanna",
+    "email": "ridhi.khanna@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Finance"
+  },
+  {
+    "user_id": "U009",
+    "name": "Neha Mehra",
+    "email": "neha.mehra@northbeam.example",
+    "role": "hiring_manager",
+    "department": "People"
+  },
+  {
+    "user_id": "U010",
+    "name": "Siddharth Desai",
+    "email": "siddharth.desai@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Engineering"
+  },
+  {
+    "user_id": "U011",
+    "name": "Simran Reddy",
+    "email": "simran.reddy@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Data"
+  },
+  {
+    "user_id": "U012",
+    "name": "Anjali Thakur",
+    "email": "anjali.thakur@northbeam.example",
+    "role": "hiring_manager",
+    "department": "Sales"
+  },
+  {
+    "user_id": "U013",
+    "name": "Simran Jain",
+    "email": "simran.jain@northbeam.example",
+    "role": "admin",
+    "department": null
+  },
+  {
+    "user_id": "U014",
+    "name": "Siddharth Singh",
+    "email": "siddharth.singh@northbeam.example",
+    "role": "admin",
+    "department": null
+  }
+]
