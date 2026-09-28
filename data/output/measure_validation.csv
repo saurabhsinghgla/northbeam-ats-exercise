@@ -1,0 +1,4 @@
+measure,calculated,control,status,independently_calculable
+Time to Hire,58,58,PASS,True
+Offer Acceptance Rate,,51.2,NOT_INDEPENDENTLY_CALCULABLE,False
+Engineering Annual Offered Salary,,200700000,NOT_INDEPENDENTLY_CALCULABLE,False

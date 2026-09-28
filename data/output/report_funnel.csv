@@ -1,0 +1,12 @@
+view,stage,application_count,percent_of_valid_applications
+stage_reached,Applied,1427,100.0
+stage_reached,Screen,995,69.73
+stage_reached,Interview,606,42.47
+stage_reached,Offer,404,28.31
+stage_reached,Hired,164,11.49
+current_stage,Hired,140,9.81
+current_stage,Interview,49,3.43
+current_stage,Offer,146,10.23
+current_stage,Rejected,446,31.25
+current_stage,Screen,70,4.91
+current_stage,Withdrawn,576,40.36

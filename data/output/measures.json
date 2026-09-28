@@ -1,0 +1,31 @@
+[
+  {
+    "definition": "Median calendar days from application date to the first authoritative Hired stage event for hires from 2026-01-01 through 2026-06-30.",
+    "independently_calculable": true,
+    "measure": "Time to Hire",
+    "result": 58,
+    "source_tables": "fact_application; fact_stage_event; dim_date",
+    "status": "CALCULATED",
+    "unit": "days"
+  },
+  {
+    "definition": "Accepted offers divided by offers with an accepted or declined decision.",
+    "independently_calculable": false,
+    "limitation": "The workbook has no reliable candidate, application-to-requisition, or complete authoritative offer linkage in the Gold layer, so statuses cannot be independently tied to valid applications and requisitions.",
+    "measure": "Offer Acceptance Rate",
+    "result": null,
+    "source_tables": "offers.xlsx only; excluded from Gold",
+    "status": "NOT_INDEPENDENTLY_CALCULABLE",
+    "unit": "percent"
+  },
+  {
+    "definition": "Sum of annual offered salary for offers against Engineering requisitions.",
+    "independently_calculable": false,
+    "limitation": "The workbook has no reliable requisition identifier, so Engineering offers cannot be independently tied to Engineering requisitions. No scaling factor or control-total override is applied.",
+    "measure": "Engineering Annual Offered Salary",
+    "result": null,
+    "source_tables": "offers.xlsx only; excluded from Gold",
+    "status": "NOT_INDEPENDENTLY_CALCULABLE",
+    "unit": "INR"
+  }
+]

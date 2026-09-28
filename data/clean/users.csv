@@ -1,0 +1,15 @@
+user_id,name,email,role,department
+U001,Naveen Malhotra,naveen.malhotra@northbeam.example,recruiter,
+U002,Gaurav Khanna,gaurav.khanna@northbeam.example,recruiter,
+U003,Rahul Singh,rahul.singh@northbeam.example,recruiter,
+U004,Ritika Saxena,ritika.saxena@northbeam.example,recruiter,
+U005,Uday Varma,uday.varma@northbeam.example,hiring_manager,Engineering
+U006,Harsh Agarwal,harsh.agarwal@northbeam.example,hiring_manager,Data
+U007,Ritika Varma,ritika.varma@northbeam.example,hiring_manager,Sales
+U008,Ridhi Khanna,ridhi.khanna@northbeam.example,hiring_manager,Finance
+U009,Neha Mehra,neha.mehra@northbeam.example,hiring_manager,People
+U010,Siddharth Desai,siddharth.desai@northbeam.example,hiring_manager,Engineering
+U011,Simran Reddy,simran.reddy@northbeam.example,hiring_manager,Data
+U012,Anjali Thakur,anjali.thakur@northbeam.example,hiring_manager,Sales
+U013,Simran Jain,simran.jain@northbeam.example,admin,
+U014,Siddharth Singh,siddharth.singh@northbeam.example,admin,

@@ -1,0 +1,6 @@
+metric,calculated,control,status,independent
+unique_people,560,560,PASS,True
+offer_stage_as_of_2026_03_31,32,32,PASS,True
+median_time_to_hire_days,58,58,PASS,True
+engineering_annual_offered_salary_inr,,200700000,NOT_INDEPENDENTLY_CALCULABLE,False
+offer_acceptance_rate_percent,,51.2,NOT_INDEPENDENTLY_CALCULABLE,False

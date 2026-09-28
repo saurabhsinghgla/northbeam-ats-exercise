@@ -1,0 +1,27 @@
+req_id,title,department,location,hiring_manager_id,recruiter_id,headcount,opened_date,closed_date,status
+REQ-1001,Financial Analyst,Data,Bengaluru,U006,U003,1,2026-04-28,,open
+REQ-1002,Platform Engineer,Sales,Pune,U007,U003,3,2025-10-09,,open
+REQ-1003,Backend Engineer,Engineering,Gurgaon,U005,U001,1,2025-10-05,2026-04-14,closed
+REQ-1004,Financial Analyst,Finance,Pune,U008,U002,1,2026-04-10,,open
+REQ-1005,Solutions Consultant,Sales,Gurgaon,U012,U004,1,2026-02-28,,open
+REQ-1006,Analytics Engineer,Data,Pune,U011,U003,1,2025-12-28,,open
+REQ-1007,Data Engineer,People,Remote - India,U009,U003,1,2025-09-13,2025-12-28,closed
+REQ-1008,Analytics Engineer,Sales,Gurgaon,U012,U002,2,2026-04-04,,open
+REQ-1009,Analytics Engineer,Finance,Remote - India,U008,U003,1,2025-11-03,2026-01-06,closed
+REQ-1010,Frontend Engineer,Engineering,Gurgaon,U005,U003,2,2026-03-03,,open
+REQ-1011,Platform Engineer,Engineering,Bengaluru,U010,U002,1,2025-09-15,2026-03-17,closed
+REQ-1012,Financial Analyst,Sales,Remote - India,U012,U002,3,2025-09-26,,open
+REQ-1013,Solutions Consultant,People,Bengaluru,U009,U001,1,2026-01-09,,open
+REQ-1014,Solutions Consultant,People,Gurgaon,U009,U004,3,2025-10-09,,open
+REQ-1015,Backend Engineer,Engineering,Gurgaon,U010,U003,3,2026-01-21,2026-03-08,closed
+REQ-1016,Platform Engineer,Sales,Remote - India,U012,U002,1,2025-12-28,,open
+REQ-1017,Data Engineer,Data,Pune,U011,U001,1,2025-11-14,2026-03-09,closed
+REQ-1018,Talent Partner,Data,Pune,U006,U001,2,2025-12-14,,open
+REQ-1019,Financial Analyst,Engineering,Gurgaon,U010,U004,1,2026-04-26,,open
+REQ-1020,Financial Analyst,Engineering,Remote - India,U010,U003,3,2026-03-02,,open
+REQ-1021,Account Executive,Finance,Gurgaon,U008,U001,3,2026-04-19,,open
+REQ-1022,Solutions Consultant,Data,Pune,U006,U003,2,2025-10-12,2026-02-07,closed
+REQ-1023,Talent Partner,People,Gurgaon,U009,U001,1,2026-02-28,,open
+REQ-1024,Platform Engineer,Engineering,Pune,U005,U001,2,2026-04-17,,open
+REQ-1025,Platform Engineer,People,Bengaluru,U009,U002,2,2025-09-04,,open
+REQ-1026,Analytics Engineer,Sales,Remote - India,U007,U004,1,2026-04-13,2026-07-02,closed

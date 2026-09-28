@@ -1,0 +1,6 @@
+department,application_count,median_time_to_hire_days,included_in_report
+Data,20,57.0,True
+Engineering,27,58,True
+Finance,6,,False
+People,23,63,True
+Sales,21,61,True

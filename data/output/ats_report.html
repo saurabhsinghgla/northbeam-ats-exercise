@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATS Analytics Report</title>
+<style>
+body { font-family: Arial, sans-serif; color: #1f2933; margin: 0 auto; max-width: 1100px; padding: 32px; line-height: 1.45; }
+h1, h2 { color: #12324a; } .subtitle, small { color: #52606d; }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 24px 0; }
+.kpi { border: 1px solid #d9e2ec; border-radius: 6px; padding: 14px; background: #f7fafc; }
+.kpi strong { display: block; font-size: 1.25rem; color: #0b7285; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0 24px; } th, td { border-bottom: 1px solid #d9e2ec; padding: 8px 10px; text-align: left; }
+th { background: #eaf4f4; color: #12324a; } .note { background: #fff8e1; border-left: 4px solid #d69e2e; padding: 10px 14px; }
+@media (max-width: 700px) { body { padding: 18px; } .kpis { grid-template-columns: 1fr; } }
+</style></head><body>
+<h1>ATS Analytics Report</h1>
+<p class="subtitle">Generated from validated Gold tables and business-measure outputs. No offer values were inferred.</p>
+<h2>Executive KPIs</h2>
+<div class="kpis">
+<div class="kpi"><strong>58 days</strong><span>Median Time to Hire</span></div>
+<div class="kpi"><strong>97</strong><span>Application-level Time to Hire records</span></div>
+<div class="kpi"><strong>2026-01-01 to 2026-06-30</strong><span>Hire-date window</span></div>
+<div class="kpi"><strong>NOT_INDEPENDENTLY_CALCULABLE</strong><span>Offer Acceptance Rate</span></div>
+<div class="kpi"><strong>NOT_INDEPENDENTLY_CALCULABLE</strong><span>Engineering Annual Offered Salary</span></div>
+</div>
+<h2>Recruiting Funnel</h2>
+<p>Population: 1427 applications with valid requisitions, using all available stage-event history. Stage reach counts distinct applications that reached each stage; invalid-requisition applications are excluded.</p>
+<table><thead><tr><th>Stage reached</th><th>Applications</th><th>% of valid applications</th></tr></thead><tbody><tr><td>Applied</td><td>1427</td><td>100.00%</td></tr><tr><td>Screen</td><td>995</td><td>69.73%</td></tr><tr><td>Interview</td><td>606</td><td>42.47%</td></tr><tr><td>Offer</td><td>404</td><td>28.31%</td></tr><tr><td>Hired</td><td>164</td><td>11.49%</td></tr></tbody></table>
+<p><small>Stage reach is cumulative history, not a conversion-rate calculation. Current-stage detail is retained in report_funnel.csv.</small></p>
+<h2>Time to Hire</h2>
+<p>Population: 97 valid applications with a first Hired event dated from 2026-01-01 through 2026-06-30. Time is calendar days from application date to first authoritative Hired event.</p>
+<table><thead><tr><th>Time range</th><th>Applications</th><th>% of population</th></tr></thead><tbody><tr><td>0-30</td><td>4</td><td>4.12%</td></tr><tr><td>31-60</td><td>50</td><td>51.55%</td></tr><tr><td>61-90</td><td>43</td><td>44.33%</td></tr><tr><td>91-120</td><td>0</td><td>0.00%</td></tr><tr><td>121+</td><td>0</td><td>0.00%</td></tr></tbody></table>
+<table><thead><tr><th>Department</th><th>Applications</th><th>Median days</th></tr></thead><tbody><tr><td>Data</td><td>20</td><td>57.0</td></tr><tr><td>Engineering</td><td>27</td><td>58</td></tr><tr><td>People</td><td>23</td><td>63</td></tr><tr><td>Sales</td><td>21</td><td>61</td></tr></tbody></table>
+<p><small>Department medians require at least 10 qualifying applications. Full detail is in report_time_to_hire_by_department.csv.</small></p>
+<h2>Data Quality and Source Limitations</h2>
+<div class="note"><p>23 applications reference invalid requisitions and 9 interviews reference missing applications. These records are excluded from valid Gold populations.</p>
+<p><code>offers.xlsx</code> cannot be reliably linked to candidates, applications, or requisitions. Therefore Offer Acceptance Rate and Engineering Annual Offered Salary cannot be independently calculated. No artificial mappings, scaling factors, or control-total overrides were used.</p></div>
+<h2>Methodology</h2>
+<p>Sources are candidates, applications, stage_events, requisitions, interviews, and users. Gold facts are one row per valid application, stage-transition event, and interview; dimensions are one row per person, requisition, user, and calendar date. The report uses fact_application, fact_stage_event, dim_requisition, dim_date, and the validated application_time_to_hire output. Control totals validate at 560 people, 32 Offer-stage applications as of 2026-03-31, and 58 median Time to Hire; the two offer controls remain explicitly non-calculable.</p>
+</body></html>

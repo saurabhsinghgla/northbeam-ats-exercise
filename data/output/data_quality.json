@@ -1,0 +1,78 @@
+{
+  "derived_counts": {
+    "excluded_applications_invalid_requisition": 23,
+    "time_to_hire_population": 97,
+    "unique_people": 560,
+    "valid_applications": 1427,
+    "valid_interviews": 1242,
+    "valid_stage_events": 4677
+  },
+  "gold_counts": {
+    "dim_date": 330,
+    "dim_person": 560,
+    "dim_requisition": 26,
+    "dim_user": 14,
+    "fact_application": 1427,
+    "fact_interview": 1242,
+    "fact_stage_event": 4677
+  },
+  "gold_validation": {
+    "checks": 33,
+    "failed_checks": 0
+  },
+  "measure_counts": {
+    "application_time_to_hire": 97,
+    "measure_validation": 3,
+    "measures": 3
+  },
+  "offer_workbook": {
+    "application_id_count": 421,
+    "columns": [
+      "offer_id",
+      "application_id",
+      "department",
+      "offered_at",
+      "annual_salary",
+      "currency",
+      "status",
+      "decided_at"
+    ],
+    "department_counts": {
+      "Data": 96,
+      "Engineering": 111,
+      "Finance": 37,
+      "People": 76,
+      "Sales": 101
+    },
+    "file": "data/raw/offers.xlsx",
+    "limitation": "The workbook has no requisition identifier and its department field cannot be independently joined to requisitions. Offer salary and acceptance controls are therefore not independently calculable from the supplied sources.",
+    "missing_required_linkage": [
+      "req_id",
+      "candidate_id"
+    ],
+    "row_count": 421,
+    "sheet": "Offers",
+    "status_counts": {
+      "accepted": 172,
+      "declined": 158,
+      "open": 91
+    },
+    "workbook_only_acceptance_rate_percent": 52.1212,
+    "workbook_only_accepted_offer_count": 172,
+    "workbook_only_decided_offer_count": 330,
+    "workbook_only_engineering_salary_sum_inr": 20330000000
+  },
+  "raw_counts": {
+    "applications": 1450,
+    "candidates": 601,
+    "interviews": 1284,
+    "requisitions": 26,
+    "stage_events": 4774,
+    "users": 14
+  },
+  "report_counts": {
+    "funnel_rows": 11,
+    "time_to_hire_department_rows": 5,
+    "time_to_hire_distribution_rows": 5
+  }
+}
